@@ -19,7 +19,8 @@ $ # Fill in .tfvars file
 $ terraform plan
 $ terraform apply
 ```
-For complete instruction please see [https://iamstoxe.com/posts/automating-the-deployment-of-your-forever-free-pihole-and-wireguard-server/](https://iamstoxe.com/posts/automating-the-deployment-of-your-forever-free-pihole-and-wireguard-server/)
+For complete instruction please see [https://medium.com/p/dce581f71b7](https://medium.com/p/dce581f71b7)
+
 
 #### docker-compose successful output:
 ```bash
