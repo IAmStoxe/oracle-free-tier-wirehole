@@ -28,4 +28,5 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-
 # wirehole
 git clone https://github.com/IAmStoxe/wirehole.git &&
     cd wirehole &&
+    sed -i 's/PEERS=1/PEERS=3/' &&
     docker-compose up
