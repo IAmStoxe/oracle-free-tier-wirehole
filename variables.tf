@@ -74,7 +74,7 @@ variable "instance_image_ocid" {
     me-dubai-1     = "ocid1.image.oc1.me-dubai-1.aaaaaaaacc4knywj5cmo544357zb2yn6fabmarv6s3khyny22spuq4edm4iq"
     me-jeddah-1    = "ocid1.image.oc1.me-jeddah-1.aaaaaaaaehhthiygczhamsxpnaebwwuuof4ghuzbhmtl5yfcjzw7af6lwlgq"
     sa-santiago-1  = "ocid1.image.oc1.sa-santiago-1.aaaaaaaaghwg2p3fwtu4q25p5ebg65mf5ncqbikqrepsttnzqrtwzccrdcma"
-    sa-saopaulo-1  = 'ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa2bfgkwh4ajxq573nfzqk6pzcnamhz7yecg7qjwjlstbtkdiaovxq"
+    sa-saopaulo-1  = "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaa2bfgkwh4ajxq573nfzqk6pzcnamhz7yecg7qjwjlstbtkdiaovxq"
     uk-cardiff-1   = "ocid1.image.oc1.uk-cardiff-1.aaaaaaaanivgefpi7h2yap5e2st7setz6bri2pfen2nttwdy3n6eyliknqla"
     uk-london-1    = "ocid1.image.oc1.uk-london-1.aaaaaaaaaqhrhabecnuwgasrfagihh5nqkexc7mq6lwwv5nvsxmu3gajp2ta"
     us-ashburn-1   = "ocid1.image.oc1.iad.aaaaaaaacliktmviofdyzhua77nyur2htmrzwjaxollbfae52q6zfuvkcjdq"
