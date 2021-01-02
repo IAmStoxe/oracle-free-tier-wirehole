@@ -22,9 +22,28 @@ variable "availability_domain_number" {
   type = map(string)
 
   default = {
-    us-phoenix-1 = 2
-    us-ashburn-1 = 3
-    us-seattle-1 = 2
+    ap-chuncheon-1 = 1
+    ap-hyderabad-1 = 1
+    ap-melbourne-1 = 1
+    ap-mumbai-1    = 1
+    ap-osaka-1     = 1
+    ap-seoul-1     = 1
+    ap-sydney-1    = 1
+    ap-tokyo-1     = 1
+    ca-montreal-1  = 1
+    ca-toronto-1   = 1
+    eu-amsterdam-1 = 1
+    eu-frankfurt-1 = 3
+    eu-zurich-1    = 1
+    me-dubai-1     = 1
+    me-jeddah-1    = 1
+    sa-santiago-1  = 1
+    sa-saopaulo-1  = 1
+    uk-cardiff-1   = 1
+    uk-london-1    = 3
+    us-ashburn-1   = 3
+    us-phoenix-1   = 3
+    us-sanjose-1   = 1
   }
 }
 
