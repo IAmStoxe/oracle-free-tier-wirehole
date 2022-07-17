@@ -115,6 +115,13 @@ resource "oci_core_instance" "wirehole_instance" {
     hostname_label   = var.instance_display_name
   }
 
+  shape_config {
+    #Optional
+    memory_in_gbs = var.instance_shape_config_memory_in_gbs
+    ocpus = var.instance_shape_config_ocpus
+  }
+
+  
   source_details {
     source_type = "image"
     source_id   = var.instance_image_ocid[var.region]
