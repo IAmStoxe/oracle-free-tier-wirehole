@@ -19,13 +19,21 @@ variable "vcn_cidr_block" {
 }
 
 variable "availability_domain_number" {
+  #Note: Free-Tier is confined to availability domain 1.  There is no constraint on the Flex Tier
   default = 1
 }
 
 variable "instance_shape" {
   # Free-Tier is VM.Standard.E2.1.Micro
+  # Flex-Tier (Free) is VM.Standard.A1.Flex
   default = "VM.Standard.E2.1.Micro"
 }
+#variable "instance_shape_config_memory_in_gbs" {
+#  default = "24"
+#}
+#variable "instance_shape_config_ocpus" {
+#  default = "4"
+#}
 
 
 variable "instance_image_ocid" {
