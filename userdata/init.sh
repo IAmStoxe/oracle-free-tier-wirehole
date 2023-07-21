@@ -10,15 +10,10 @@ sudo apt-get update &&
         gnupg-agent \
         software-properties-common
 
-# Install Docker repository and keys
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-sudo add-apt-repository \
-    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-        $(lsb_release -cs) \
-        stable" &&
-    sudo apt-get update &&
-    sudo apt-get install docker-ce docker-ce-cli containerd.io -yqq
+# Install Docker
+sudo curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo chmod +x get-docker.sh
+    sudo sh get-docker.sh
 
 # docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose &&
@@ -28,4 +23,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.6.1/docker-
 # wirehole
 git clone https://github.com/IAmStoxe/wirehole.git &&
     cd wirehole &&
-    docker-compose up
+    sudo docker-compose up
